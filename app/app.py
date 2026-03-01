@@ -114,10 +114,10 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### About")
 st.sidebar.info(
     """
-    This app deploys machine learning models trained on [YOUR DATASET].
+    This app deploys machine learning models trained on [5000 Patients with potentially CKD].
 
-    - **Regression**: Predicts [YOUR TARGET]
-    - **Classification**: Predicts [YOUR CATEGORIES]
+    - **Regression**: Predicts [Predicting the CKD Stage of the Patient]
+    - **Classification**: Predicts [Predicting the CKD Stage of the Patient]
     """
 )
 # TODO: UPDATE YOUR NAME HERE! This shows visitors who built this app.
