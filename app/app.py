@@ -121,8 +121,8 @@ st.sidebar.info(
     """
 )
 # TODO: UPDATE YOUR NAME HERE! This shows visitors who built this app.
-st.sidebar.markdown("**Built by:** [YOUR NAME]")
-st.sidebar.markdown("[GitHub Repo](https://github.com/YOUR-USERNAME/YOUR-REPO)")
+st.sidebar.markdown("**Built by:** [Joseph Villa]")
+st.sidebar.markdown("[GitHub Repo](https://github.com/jvilla13/individual-capstone-jvilla13.git)")
 
 
 # =============================================================================
@@ -149,13 +149,13 @@ if page == "🏠 Home":
     st.markdown("### About This Project")
     st.write(
         """
-        **Dataset:** [Describe your dataset]
+        **Dataset:** [5000 Patients with potentially CKD]
 
-        **Problem Statement:** [What are you predicting and why?]
+        **Problem Statement:** [Predicting the CKD Stage of the patient]
 
         **Models Used:**
-        - Regression: [Your regression model type]
-        - Classification: [Your classification model type]
+        - Regression: [Random Forest]
+        - Classification: [Linear Regression]
         """
     )
 
